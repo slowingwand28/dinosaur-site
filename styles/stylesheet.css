@@ -1,14 +1,25 @@
 body {
     margin: 0 auto;
     text-align: center;
+    background-color: #537D3B;
 }
 
 header {
-    max-width: 50%;
-    text-align: center;
     margin: 0 auto;
     display: grid;
     grid-template-columns: auto auto auto;
+    background-color: #7CA7CB;
+    padding: 10px;
+    align-items: center;
+}
+
+h1, h2 {
+    color: #FF9A1F;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+p {
+    font-family: "Rokkitt", serif;
 }
 
 .logo {
@@ -17,10 +28,20 @@ header {
 
 .cards {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 10% 0 10%;
+    gap: 10%;
+}
+
+.card {
+    border: 1px solid;
+
 }
 
 footer {
     text-align: center;
-    margin: 0 auto;
+    margin: 5% 0 0 0;
+    background-color: #AF5931;
+    color: white;
+    padding: 10px;
 }
