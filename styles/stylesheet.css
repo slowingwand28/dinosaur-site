@@ -28,6 +28,11 @@ p {
     width: 75px;
 }
 
+.homep {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 .cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -38,6 +43,36 @@ p {
 .card {
     border: 1px solid;
     background-color: #7CA7CB;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 15px #2b3138; 
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h2 {
+    color: black;
+}
+
+.card a {
+    display: inline-block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: white;
+}
+
+.card a:hover {
+    background-color: #537D3B;
+    color: black;
 }
 
 footer {
