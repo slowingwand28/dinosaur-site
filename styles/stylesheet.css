@@ -3,7 +3,7 @@
 body {
     margin: 0 auto;
     text-align: center;
-    background-color: #537D3B;
+    background-color: #44682f;
 }
 
 header {
@@ -15,9 +15,17 @@ header {
     align-items: center;
 }
 
+.link {
+    color: #2b3138;
+}
+
 h1, h2 {
     color: #FF9A1F;
     font-family: "Bebas Neue", sans-serif;
+}
+
+h1 {
+    font-size: 50px;
 }
 
 p {
@@ -31,6 +39,8 @@ p {
 .homep {
     margin-left: 10%;
     margin-right: 10%;
+    font-size: larger;
+    color: white;
 }
 
 .cards {
@@ -81,4 +91,8 @@ footer {
     background-color: #AF5931;
     color: white;
     padding: 10px;
+}
+
+.planlink {
+    color: white;
 }
