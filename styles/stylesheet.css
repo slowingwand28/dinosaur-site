@@ -89,11 +89,15 @@ p {
     display: grid;
     grid-template-columns: auto auto;
     margin: 0 15% 0 15%;
+    border: 1px solid;
+    border-radius: 10px;
+    gap: 10px;
 }
 
 .dino img {
     max-width: 500px;
     min-width: 300px;
+    border-radius: 10px;
 }
 
 .dino p {
