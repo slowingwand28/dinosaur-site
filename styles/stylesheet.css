@@ -92,6 +92,7 @@ p {
     border: 1px solid;
     border-radius: 10px;
     gap: 10px;
+    text-align: center;
 }
 
 .dino img {
@@ -114,4 +115,14 @@ footer {
 
 .planlink {
     color: white;
+}
+
+@media (max-width: 800px) {
+    .dino {
+        grid-template-columns: auto;
+    }
+
+    .dino img {
+        max-width: 300px;
+    }
 }
