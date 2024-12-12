@@ -117,13 +117,15 @@ footer {
     color: white;
 }
 
-@media (max-width: 800px) {
-    .dino {
-        grid-template-columns: auto;
-    }
-
+@media (max-width: 1150px) {
     .dino img {
         max-width: 300px;
         margin: 0 auto;
+    }
+}
+
+@media (max-width: 800px) {
+    .dino {
+        grid-template-columns: auto;
     }
 }
